@@ -64,10 +64,12 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     background-color: #808080;
-    flex: 1 1 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 500px;
+    height: 250px;
+
 }
 
 .hero-content button {
@@ -78,4 +80,33 @@ a {
     border-radius: 8px;
     border: none;
     padding: 8px 32px;
+}
+
+.information {
+    text-align: center;
+    padding: 0 20vh;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 32px;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
+.info {
+    max-width: 158px;
+}
+
+.info-image {
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+    height: 150px;
+    width: 150px;
 }
