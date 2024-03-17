@@ -85,6 +85,7 @@ a {
 .information {
     text-align: center;
     padding: 0 20vh;
+    margin-bottom: 64px;
 }
 
 .information-header {
@@ -109,4 +110,27 @@ a {
     border-radius: 12px;
     height: 150px;
     width: 150px;
+    margin-bottom: 8px;
+}
+
+.info-text {
+    color: #808080;
+}
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 10vh 30vh;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-owner {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: right;
 }
