@@ -134,3 +134,36 @@ a {
     font-weight: 900;
     text-align: right;
 }
+
+.action-section {
+    color: #E5E7EB;
+}
+
+.action-box{
+    margin: 10vh 20vh;
+    padding: 64px 128px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-main {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.action-secondary{
+    font-size: 18px;
+}
+
+.action-right button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    padding: 8px 32px;
+}
