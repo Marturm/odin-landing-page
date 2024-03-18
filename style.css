@@ -39,7 +39,7 @@ a {
 
 .hero {
     background-color: #1F2937;
-    padding: 10vh;
+    padding: 10vh 0;
 }
 
 .hero-wrapper {
@@ -91,7 +91,8 @@ a {
 .information {
     text-align: center;
     padding: 0;
-    max-width: 1024px;
+    max-width: 800px;
+    width: 100%;
     margin-inline: auto;
     margin-bottom: 64px;
 }
@@ -105,8 +106,7 @@ a {
 
 .information-container {
     display: flex;
-    justify-content: center;
-    gap: 56px;
+    justify-content: space-between;
 }
 
 .info {
@@ -156,6 +156,7 @@ a {
 }
 
 .action-box{
+    box-sizing: border-box;
     margin: 10vh auto;
     max-width: 1024px;
     padding: 64px 128px;
