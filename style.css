@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -63,12 +63,12 @@ a {
 .hero-image {
     font-size: 18px;
     color: #E5E7EB;
-    background-color: #808080;
+    background-color: #6d747d;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 250px;
+    width: 523px;
+    height: 237px;
 
 }
 
@@ -102,19 +102,21 @@ a {
 }
 
 .info {
-    max-width: 158px;
+    max-width: 168px;
 }
 
 .info-image {
+    box-sizing: border-box;
     border: 4px solid #3882F6;
     border-radius: 12px;
-    height: 150px;
-    width: 150px;
+    height: 168px;
+    width: 168px;
     margin-bottom: 8px;
 }
 
 .info-text {
-    color: #808080;
+    color: #4b5563;
+    font-size: 18px;
 }
 .quote-section {
     background-color: #E5E7EB;
@@ -124,7 +126,7 @@ a {
 .quote-text {
     font-size: 36px;
     color: #1F2937;
-    font-weight: lighter;
+    font-weight: 100;
     font-style: italic;
 }
 
